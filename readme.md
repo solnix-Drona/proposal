@@ -1,8 +1,5 @@
-
 # Voice AI Agent Architecture
 ## Real-Time Voice Processing Pipeline for Ixigo Flight Booking
-
-## The Vision
 
 ### What We're Building
 A **real-time voice AI system** that handles flight booking calls naturally - like talking to a human travel agent.
@@ -88,12 +85,12 @@ flowchart LR
 
 ```mermaid
 sequenceDiagram
-    participant User as 👤 User
-    participant Twilio as ☁️ Twilio
-    participant STT as 📝 STTWillow
-    participant LLM as 🧠 LLM
+    participant User as  User
+    participant Twilio as  Twilio
+    participant STT as  STTWillow
+    participant LLM as  LLM
     participant Tools as 🔧 Ixigo Functions
-    participant TTS as 🔊 Mistral TTS
+    participant TTS as  Mistral TTS
     
     User->>Twilio: Dials Ixigo booking number
     Twilio->>User: Answers & streams audio
